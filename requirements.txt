@@ -38,4 +38,6 @@ backtesting>=0.3.3
 ta-lib>=0.4.0
 PyPDF2>=3.0.0
 youtube-transcript-api>=0.6.2
-pandas-ta>=0.3.14b0
+# pandas-ta is not available on PyPI, install from source:
+# pip install git+https://github.com/twopirllc/pandas-ta.git@main
+# OR use ta-lib instead (already included above)
